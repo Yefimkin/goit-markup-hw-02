@@ -1,4 +1,11 @@
-.some-title {
-    font-size: 22px;
-    color: brown;
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 26px;
+  font-weight: 700;
 }
