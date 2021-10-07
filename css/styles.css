@@ -29,7 +29,7 @@ body {
     color: var(--third-color);
 }
 
-/* header */
+/* --- header --- */
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -55,7 +55,7 @@ body {
     color: var(--accent-color)
 }
 
-/* hero */
+/* --- hero --- */
 
 .hero-top {
     background-color: #2F303A;
@@ -81,8 +81,26 @@ body {
     color: var(--header-color);
 }
 
+/* --- section 2 */
 
+.text-name{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-text-color);
+}
 
+.text-item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color:var(--second-text-color)
+}
 
 /* --- footer --- */
 
