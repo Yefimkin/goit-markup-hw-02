@@ -8,9 +8,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    background-color: #E5E5E5;
 }
 
 .list {
@@ -27,6 +24,10 @@ body {
 
 .second-web{
     color: var(--third-color);
+}
+
+.pointer {
+    cursor: pointer;
 }
 
 /* --- header --- */
@@ -79,13 +80,15 @@ body {
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--header-color);
+    background-color: var(--accent-color);
 }
 
-/* --- section 2 */
+.btn:hover{
+    background-color: #188CE8;
+}
+/* --- section 2 --- */
 
 .text-name{
-    font-style: normal;
-    font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -94,12 +97,51 @@ body {
 }
 
 .text-item{
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color:var(--second-text-color)
+}
+
+
+/* --- section three --- */
+
+.section-three-title{
+    font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
+}
+
+
+/* --- section 4 --- */
+
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
+
+.team-prof{
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+
 }
 
 /* --- footer --- */
@@ -131,3 +173,7 @@ body {
 .footer-second-link:focus{
     color: var(--accent-color);
 }
+
+
+/* ------------- portfolio ------------- */
+
