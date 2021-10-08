@@ -179,13 +179,32 @@ color: var(--primary-text-color);
 /* ------------- portfolio ------------- */
 
 .button{
-
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--primary-text-color);
 }
 
 .button:hover,
 .button:focus{
+    color: var(--header-color);
     background-color: var(--accent-color);
 }
 .button-light {
     background-color: var(--button-color);
+}
+
+.project-title {
+    font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
+
+.project-text {
+    font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.03em;
+color: var(--second-text-color);
 }
