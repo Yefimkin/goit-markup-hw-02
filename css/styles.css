@@ -4,6 +4,7 @@
     --second-text-color: #757575;
     --accent-color: #2196F3;
     --third-color: #000000;
+    --button-color: #F5F4FA;
 }
 
 body {
@@ -177,3 +178,14 @@ color: var(--primary-text-color);
 
 /* ------------- portfolio ------------- */
 
+.button{
+
+}
+
+.button:hover,
+.button:focus{
+    background-color: var(--accent-color);
+}
+.button-light {
+    background-color: var(--button-color);
+}
